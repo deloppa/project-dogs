@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(81, 54, 111);
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(88, 60, 144);
+    background-color: rgb(159, 211, 159);
+    text-transform: uppercase;
+    padding: 15px;
+    box-shadow: 0px 15px 15px rgb(195, 153, 17);
+}
+
+img {
+    width: 600px;
+    border: 10px solid rgb(163, 227, 179);
+    margin: 30px;
+}
+
+.image-border {
+    border-bottom: 10px dotted rgb(161, 161, 204);
+}
+
+.round-border {
+    border-top-left-radius: 375px 250px;
+    border-bottom-right-radius: 375px 250px;
+}
+
+.round-border2 {
+    border-top-right-radius: 375px 250px;
+    border-bottom-left-radius: 375px 250px;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: rgb(194, 172, 172);
+    text-decoration: none;
+}
+
+ul {
+    color: rgb(211, 164, 255);
+    list-style: "🌸 ";
+    font-size: 18px;
+}
+
+.green-text {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+.red-text {
+    color: maroon;
+    font-weight: bold;
+}
+
+.text-gradient {
+    background: linear-gradient(199deg,rgba(190, 70, 227, 1) 1%, rgba(196, 92, 156, 1) 35%, rgba(222, 122, 82, 1) 72%, rgba(252, 176, 69, 1) 100%);
+}
+
+li {
+    text-shadow: 10px 10px 2px rgba(236, 10, 244, 0.902);
+}
+
+div {
+    background: linear-gradient(137deg,rgba(98, 9, 64, 0.609) 1%, rgba(196, 92, 156, 0.592) 35%, rgba(198, 127, 212, 0.621) 72%, rgba(252, 176, 69, 0.649) 100%);
+    border: 10px double rgb(30, 4, 57);
+    border-left: 30px solid red;
+    border-radius: 100px;
+    text-align: center;
+}
